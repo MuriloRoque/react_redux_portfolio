@@ -1,3 +1,19 @@
-body {
-  background-color: #fff;
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  body {
+    background-color: #fff;
+    color: #333;
+    letter-spacing: -.1px;
+    font-weight: 400;
+    font-kerning: normal;
+    line-height: 1.6;
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    .App {
+      margin: 0 12rem;
+    }
+  }
 }
