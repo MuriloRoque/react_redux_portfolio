@@ -9,7 +9,7 @@ import mail from '../assets/images/mail.png';
 import resumeImg from '../assets/images/resume.png';
 
 const Header = () => (
-  <header>
+  <header className='Header'>
     <div className='header-left'>
       <img src={logo} alt="logo"/>
     </div>
@@ -25,7 +25,7 @@ const Header = () => (
         Twitter</a>
       <a href={"mailto: muriloengqui@gmail.com"}>
         <img src={mail} alt="mail"/>
-        E-mail</a>
+        Mail</a>
       <a href={resume} target={'_blank'}>
         <img src={resumeImg} alt="resume"/>
         Resume</a>
