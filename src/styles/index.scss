@@ -1,3 +1,8 @@
+@font-face {
+  font-family: InterUI;
+  src: url("../assets/fonts/Inter-UI-Regular.otf") format("opentype");
+}
+
 html {
   font-size: 62.5%;
   box-sizing: border-box;
@@ -8,12 +13,9 @@ html {
     font-weight: 400;
     font-kerning: normal;
     line-height: 1.6;
-    font-size: 1.6rem;
-    font-family: sans-serif;
+    font-size: 1.8rem;
+    font-family: InterUI;
     margin: 0;
     padding: 0;
-    .App {
-      margin: 0 12rem;
-    }
   }
 }

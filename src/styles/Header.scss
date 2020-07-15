@@ -2,13 +2,12 @@
   display: flex;
   margin-top: 3rem;
   padding: 0 1rem;
-  width: 90%;
   .header-left {
     display: flex;
     justify-content: flex-start;
     flex: 1;
     img {
-      width: 12rem;
+      width: 14rem;
     }
   }
   .header-right{
@@ -24,7 +23,7 @@
       text-decoration: none;
       img {
         width: 2rem;
-        margin-right: 1rem;
+        margin-right: 0.6rem;
       }
     }
   }
