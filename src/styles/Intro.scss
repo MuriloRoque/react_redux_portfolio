@@ -1,19 +1,16 @@
 .Intro {
   min-height: 20rem;
   height: 50vh;
-  width: 75vw;
   display: flex;
   align-items: center;
   margin: 0 auto;
   padding: 2rem;
-  max-width: 120rem;
   h2 {
     font-weight: 300;
-    font-size: 1.75em;
+    font-size: 3.15rem;
     margin: .35em 0 .7em;
     z-index: 1;
     img {
-      max-width: 100%;
       width: 3rem;
       margin-left: 1rem;
     }
@@ -25,10 +22,11 @@
   }
   small {
     display: flex;
-    font-size: .65em;
+    font-size: .5em;
     line-height: 1.8;
     img {
       width: 3rem;
+      height: 3rem;
       margin-left: 1rem;
     }
   }

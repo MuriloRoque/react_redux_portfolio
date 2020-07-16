@@ -9,10 +9,10 @@ const Intro = () => (
       Hello there 
       <img src={hello} alt="hello"/><br/>
       I'm Murilo, a full-stack developer, whose specializations are
-      <a href={"https://www.ruby-lang.org/en/"}> Ruby</a>, 
-      <a href={"https://rubyonrails.org/"}> Rails</a>, <br/>
-      <a href={"https://www.javascript.com/"}> Javascript</a>, and 
-      <a href={"https://reactjs.org/"}> React</a>.
+      <a href={"https://www.ruby-lang.org/en/"} rel="noopener noreferrer" target={'_blank'}> Ruby</a>, 
+      <a href={"https://rubyonrails.org/"} rel="noopener noreferrer" target={'_blank'}> Rails</a>,
+      <a href={"https://www.javascript.com/"} rel="noopener noreferrer" target={'_blank'}> Javascript</a>, and 
+      <a href={"https://reactjs.org/"} rel="noopener noreferrer" target={'_blank'}> React</a>.
       <small>
       I enjoy creating applications, teaching, and helping people
       in my community whenever they need it

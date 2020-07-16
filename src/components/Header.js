@@ -14,19 +14,19 @@ const Header = () => (
       <img src={logo} alt="logo"/>
     </div>
     <div className='header-right'>
-      <a href={"https://github.com/MuriloRoque"} target={'_blank'}>
+      <a href={"https://github.com/MuriloRoque"} rel="noopener noreferrer" target={'_blank'}>
         <img src={github} alt="github"/>
         GitHub</a>
-      <a href={"https://www.linkedin.com/in/murilo-roque/"} target={'_blank'}>
+      <a href={"https://www.linkedin.com/in/murilo-roque/"} rel="noopener noreferrer" target={'_blank'}>
         <img src={linkedin} alt="linkedin"/>
         LinkedIn</a>
-      <a href={"https://twitter.com/MuriloRoquePai1"} target={'_blank'}>
+      <a href={"https://twitter.com/MuriloRoquePai1"} rel="noopener noreferrer" target={'_blank'}>
         <img src={twitter} alt="twitter"/>
         Twitter</a>
       <a href={"mailto: muriloengqui@gmail.com"}>
         <img src={mail} alt="mail"/>
         Mail</a>
-      <a href={resume} target={'_blank'}>
+      <a href={resume} rel="noopener noreferrer" target={'_blank'}>
         <img src={resumeImg} alt="resume"/>
         Resume</a>
     </div>

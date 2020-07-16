@@ -1,11 +1,12 @@
 @font-face {
   font-family: InterUI;
-  src: url("../assets/fonts/Inter-UI-Regular.otf") format("opentype");
+  src: url("../assets/fonts/Inter-Regular.otf") format("opentype");
 }
 
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  min-width: 900px;
   body {
     background-color: #fff;
     color: #333;
@@ -17,6 +18,9 @@ html {
     font-family: InterUI;
     margin: 0;
     padding: 0;
+    #root {
+      width: 100%;
+    }
     a {
       z-index: 1;
     }

@@ -1,5 +1,4 @@
 .Projects {
-  max-width: 120rem;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -16,13 +15,14 @@
     width: 90%;
     text-transform: uppercase;
     text-align: center;
-    max-width: 120rem;
     margin: 0 auto 4rem auto;
     padding: 2rem;
     font-size: 1em;
     font-weight: 500;
   }
   div {
+    align-self: center;
+    margin: 0 auto;
     height: 41rem;
     transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);
     padding: 0;
@@ -48,7 +48,6 @@
         display: block;
         transition: all .3s ease;
         margin: auto;
-        max-width: 100%;
         overflow: hidden;
       }
     }
@@ -61,7 +60,6 @@
       background-color: rgba(0,0,0,.5);
       box-shadow: 0 0 10px rgba(0,0,0,.25);
       width: 45rem;
-      max-width: 45rem;
       h4 {
         margin: 0;
         line-height: 1.2;

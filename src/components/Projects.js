@@ -22,8 +22,8 @@ const Projects = () => (
           <small>HTML, SASS</small>
           <p>This is a search engine called Chemisearch,
             where you can search for chemical companies that sell these products.</p>
-          <a href="https://raw.githack.com/MuriloRoque/chemisearch/master/index.html" target='_blank'>View online</a>
-          <a href="https://github.com/MuriloRoque/chemisearch" target='_blank'>View code</a>
+          <a href="https://raw.githack.com/MuriloRoque/chemisearch/master/index.html" rel="noopener noreferrer" target='_blank'>View online</a>
+          <a href="https://github.com/MuriloRoque/chemisearch" rel="noopener noreferrer" target='_blank'>View code</a>
         </footer>
       </div>
     </Tilt>
@@ -36,8 +36,8 @@ const Projects = () => (
           <h4>Twitter Clone</h4>
           <small>Ruby on Rails</small>
           <p>This is a Twitter Clone built with Ruby on Rails. You can signup, login, and create posts.</p>
-          <a href="https://shrouded-reaches-36145.herokuapp.com/" target='_blank'>View online</a>
-          <a href="https://github.com/MuriloRoque/twitter_clone_app" target='_blank'>View code</a>
+          <a href="https://shrouded-reaches-36145.herokuapp.com/" rel="noopener noreferrer" target='_blank'>View online</a>
+          <a href="https://github.com/MuriloRoque/twitter_clone_app" rel="noopener noreferrer" target='_blank'>View code</a>
         </footer>
       </div>
     </Tilt>
@@ -51,8 +51,8 @@ const Projects = () => (
           <small>Ruby on Rails, HTML, SCSS</small>
           <p>In this app, you can control the total amount of food you consumed
             from a specific group in a certain period of time.</p>
-          <a href="https://murilo-food-tracker.herokuapp.com/" target='_blank'>View online</a>
-          <a href="https://github.com/MuriloRoque/food_tracker_app" target='_blank'>View code</a>
+          <a href="https://murilo-food-tracker.herokuapp.com/" rel="noopener noreferrer" target='_blank'>View online</a>
+          <a href="https://github.com/MuriloRoque/food_tracker_app" rel="noopener noreferrer" target='_blank'>View code</a>
         </footer>
       </div>
     </Tilt>
@@ -66,12 +66,12 @@ const Projects = () => (
           <small>Javascript, Phaser 3</small>
           <p>This is a shooter game featuring Martha, a battle aircraft pilot who's trying to rescue her father.
             In this app, you will be able to help her by shooting and destroying the enemy's aircraft.</p>
-          <a href="https://marthas-rescue.netlify.app/" target='_blank'>View online</a>
-          <a href="https://github.com/MuriloRoque/marthas_rescue_shooter_game" target='_blank'>View code</a>
+          <a href="https://marthas-rescue.netlify.app/" rel="noopener noreferrer" target='_blank'>View online</a>
+          <a href="https://github.com/MuriloRoque/marthas_rescue_shooter_game" rel="noopener noreferrer" target='_blank'>View code</a>
         </footer>
       </div>
     </Tilt>
-    <p><a href="https://medium.com/@muriloengqui" target='_blank'>Check out my articles on Medium</a></p>
+    <p><a href="https://medium.com/@muriloengqui" rel="noopener noreferrer" target='_blank'>Check out my articles on Medium</a></p>
   </section>
 );
 
