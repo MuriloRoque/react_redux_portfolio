@@ -23,7 +23,7 @@
     font-weight: 500;
   }
   div {
-    height: 35rem;
+    height: 41rem;
     transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);
     padding: 0;
     background-color: transparent;
@@ -55,7 +55,7 @@
     footer {
       position: absolute;
       bottom: 2rem;
-      left: 2rem;
+      left: 1.5rem;
       padding: .75rem 1rem;
       transform: translateZ(3rem);
       background-color: rgba(0,0,0,.5);

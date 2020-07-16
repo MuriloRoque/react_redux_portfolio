@@ -25,9 +25,9 @@ const Footer = () => (
     </nav>
     <div>
       <p>Created using <a href="https://reactjs.org/">React</a>,
-       <a href="https://redux.js.org/">Redux</a> and
-       <a href="https://sass-lang.com/">SASS</a></p>. The design is from
-       <a href="https://jgog.in/">Jenil Gogari</a>
+       <a href="https://redux.js.org/"> Redux</a> and
+       <a href="https://sass-lang.com/"> SASS</a>. The design is from
+       <a href="https://jgog.in/"> Jenil Gogari</a></p>
       <p>Murilo Roque © 2020</p>
     </div>
   </footer>
