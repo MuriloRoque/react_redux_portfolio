@@ -5,25 +5,30 @@
   align-items: center;
   margin: 0 auto;
   padding: 2rem;
+
   h2 {
     font-weight: 300;
     font-size: 3.15rem;
-    margin: .35em 0 .7em;
+    margin: 0.35em 0 0.7em;
     z-index: 1;
+
     img {
       width: 3rem;
       margin-left: 1rem;
     }
+
     a {
-      transition: color .2s ease;
+      transition: color 0.2s ease;
       color: #1a9f60;
       text-decoration: none;
     }
   }
+
   small {
     display: flex;
-    font-size: .5em;
+    font-size: 0.5em;
     line-height: 1.8;
+
     img {
       width: 3rem;
       height: 3rem;

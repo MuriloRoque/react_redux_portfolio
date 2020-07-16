@@ -7,25 +7,29 @@ html {
   font-size: 62.5%;
   box-sizing: border-box;
   min-width: 900px;
+
   body {
     background-color: #fff;
     color: #333;
-    letter-spacing: -.1px;
+    letter-spacing: -0.1px;
     font-weight: 400;
     font-kerning: normal;
     line-height: 1.6;
     font-size: 1.8rem;
-    font-family: InterUI;
+    font-family: InterUI, sans-serif;
     margin: 0;
     padding: 0;
+
     #root {
       width: 100%;
     }
+
     a {
       z-index: 1;
     }
+
     a:hover {
-      opacity: .75;
+      opacity: 0.75;
     }
   }
 }

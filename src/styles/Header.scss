@@ -2,25 +2,30 @@
   display: flex;
   margin-top: 3rem;
   padding: 0 1rem;
+
   .header-left {
     display: flex;
     justify-content: flex-start;
     flex: 1;
+
     img {
       width: 14rem;
     }
   }
-  .header-right{
+
+  .header-right {
     display: flex;
     flex: 1 1 auto;
     justify-content: flex-end;
+
     a {
       display: flex;
       align-items: center;
       padding: 1rem 2rem;
       color: #3f4144;
-      transition: color .2s ease;
+      transition: color 0.2s ease;
       text-decoration: none;
+
       img {
         width: 2rem;
         margin-right: 0.6rem;
