@@ -228,16 +228,16 @@ function App() {
                   "sides": 5
                 },
                 "image": {
-                  "height": 100,
+                  "height": 25,
                   "replaceColor": true,
                   "src": "https://cdn.matteobruni.it/images/particles/github.svg",
-                  "width": 100
+                  "width": 25
                 },
                 "images": {
-                  "height": 100,
+                  "height": 25,
                   "replaceColor": true,
                   "src": "https://cdn.matteobruni.it/images/particles/github.svg",
-                  "width": 100
+                  "width": 25
                 }
               },
               "type": "circle"

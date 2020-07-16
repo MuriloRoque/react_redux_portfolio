@@ -17,6 +17,9 @@ html {
     font-family: InterUI;
     margin: 0;
     padding: 0;
+    a {
+      z-index: 1;
+    }
     a:hover {
       opacity: .75;
     }
