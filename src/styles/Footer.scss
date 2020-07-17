@@ -1,0 +1,45 @@
+.Footer {
+  margin: 5rem auto;
+  width: 100%;
+  padding: 2rem;
+
+  nav {
+    display: flex;
+    min-height: 5rem;
+    align-items: stretch;
+
+    p {
+      justify-content: flex-start;
+      flex: 1;
+      display: flex;
+      margin-top: 0;
+
+      a {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        padding: 1rem 2rem;
+        color: #3f4144;
+        transition: color 0.2s ease;
+
+        img {
+          width: 2rem;
+        }
+      }
+    }
+  }
+
+  div {
+    p {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      margin-top: 0;
+
+      a {
+        transition: color 0.2s ease;
+        color: #1a9f60;
+        text-decoration: none;
+      }
+    }
+  }
+}
