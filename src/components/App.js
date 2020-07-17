@@ -19,7 +19,7 @@ function App() {
               color: {
                 value: '#fff',
               },
-              opacity: 1,
+              opacity: 0.1,
             },
             enable: false,
           },
@@ -60,20 +60,20 @@ function App() {
               bubble: {
                 distance: 400,
                 duration: 2,
-                opacity: 0.8,
-                size: 30,
+                opacity: 0.1,
+                size: 10,
               },
               connect: {
                 distance: 80,
                 links: {
-                  opacity: 0.5,
+                  opacity: 0.1,
                 },
                 radius: 60,
               },
               grab: {
                 distance: 400,
                 links: {
-                  opacity: 1,
+                  opacity: 0.1,
                 },
               },
               push: {
@@ -85,7 +85,7 @@ function App() {
               repulse: {
                 distance: 200,
                 duration: 0.4,
-                speed: 1,
+                speed: 0,
               },
               slow: {
                 factor: 3,
@@ -99,10 +99,10 @@ function App() {
               mode: 'bounce',
             },
             color: {
-              value: '#000',
+              value: 'random',
               animation: {
-                enable: false,
-                speed: 0.5,
+                enable: true,
+                speed: 0,
                 sync: true,
               },
             },
@@ -114,7 +114,7 @@ function App() {
               consent: false,
               distance: 150,
               enable: false,
-              opacity: 0,
+              opacity: 0.1,
               shadow: {
                 blur: 5,
                 color: {
@@ -151,7 +151,7 @@ function App() {
               },
               outMode: 'out',
               random: false,
-              speed: 6,
+              speed: 0,
               straight: false,
               trail: {
                 enable: false,
@@ -166,7 +166,7 @@ function App() {
             number: {
               density: {
                 enable: true,
-                area: 800,
+                area: 600,
                 factor: 1000,
               },
               limit: 500,
@@ -176,7 +176,7 @@ function App() {
               animation: {
                 enable: false,
                 minimumValue: 0.1,
-                speed: 1,
+                speed: 0,
                 sync: false,
               },
               random: {
@@ -248,37 +248,59 @@ function App() {
                 destroy: 'none',
                 enable: false,
                 minimumValue: 0.1,
-                speed: 40,
+                speed: 0,
                 startValue: 'max',
                 sync: false,
               },
               random: {
-                enable: true,
+                enable: false,
                 minimumValue: 1,
               },
-              value: 5,
+              value: 2.2,
             },
             stroke: {
               color: {
                 value: '#000000',
               },
               width: 0,
-              opacity: 1,
+              opacity: 0.1,
             },
             twinkle: {
               lines: {
                 enable: false,
                 frequency: 0.05,
-                opacity: 1,
+                opacity: 0.1,
               },
               particles: {
                 enable: false,
                 frequency: 0.05,
-                opacity: 1,
+                opacity: 0.1,
               },
             },
           },
           pauseOnBlur: true,
+          "polygon": {
+            "draw": {
+              "enable": true,
+              "stroke": {
+                "color": {
+                  "value": "rgba(255,255,255,0.2)"
+                },
+                "width": 0.5,
+                "opacity": 0.2
+              }
+            },
+            "enable": true,
+            "inline": {
+              "arrangement": "equidistant"
+            },
+            "move": {
+              "radius": 10,
+              "type": "path"
+            },
+            "scale": 2,
+            "type": "inline",
+          }
         }}
       />
       <Header />
