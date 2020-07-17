@@ -26,7 +26,7 @@ const Footer = () => (
     <div>
       <p>
         Created using
-        <a href="https://reactjs.org/">React</a>
+        <a href="https://reactjs.org/"> React</a>
         ,
         <a href="https://redux.js.org/" rel="noopener noreferrer" target="_blank"> Redux</a>
         {' '}

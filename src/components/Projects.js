@@ -4,7 +4,7 @@ import Tilt from 'react-vanilla-tilt';
 import twitter from '../assets/images/twitter-ss.png';
 import chemisearch from '../assets/images/chemisearch.png';
 import foodTracker from '../assets/images/food-tracker.png';
-import martha from '../assets/images/martha.gif';
+import martha from '../assets/images/martha.png';
 
 const Projects = () => (
   <section className="Projects">
@@ -69,7 +69,7 @@ const Projects = () => (
           <img src={martha} alt="martha" />
         </figure>
         <footer>
-          <h4>Mastha&apos;s Rescue</h4>
+          <h4>Martha&apos;s Rescue</h4>
           <small>Javascript, Phaser 3</small>
           <p>
             This is a shooter game featuring Martha, a battle aircraft pilot
