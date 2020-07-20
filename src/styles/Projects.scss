@@ -122,3 +122,13 @@
     }
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .Projects {
+    div {
+      footer {
+        width: 82%;
+      }
+    }
+  }
+}
