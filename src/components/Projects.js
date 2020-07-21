@@ -5,6 +5,7 @@ import twitter from '../assets/images/twitter-ss.png';
 import chemisearch from '../assets/images/chemisearch.png';
 import foodTracker from '../assets/images/food-tracker.png';
 import martha from '../assets/images/martha.png';
+import bookstore from '../assets/images/bookstore.png';
 
 const Projects = () => (
   <section className="Projects">
@@ -79,6 +80,24 @@ const Projects = () => (
           </p>
           <a href="https://marthas-rescue.netlify.app/" rel="noopener noreferrer" target="_blank">View online</a>
           <a href="https://github.com/MuriloRoque/marthas_rescue_shooter_game" rel="noopener noreferrer" target="_blank">View code</a>
+        </footer>
+      </div>
+    </Tilt>
+    <Tilt style={{ width: '50rem' }}>
+      <div>
+        <figure>
+          <img src={bookstore} alt="bookstore" />
+        </figure>
+        <footer>
+          <h4>Bookstore</h4>
+          <small>React, Redux, SCSS</small>
+          <p>
+          This is a Bookstore App, where you can add,
+          remove, edit and follow the reading progress
+          of your books.
+          </p>
+          <a href="https://murilo-react-bookstore.herokuapp.com/" rel="noopener noreferrer" target="_blank">View online</a>
+          <a href="https://github.com/MuriloRoque/react_bookstore" rel="noopener noreferrer" target="_blank">View code</a>
         </footer>
       </div>
     </Tilt>
