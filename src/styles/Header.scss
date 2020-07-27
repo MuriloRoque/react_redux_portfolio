@@ -10,13 +10,13 @@
 
     img {
       width: 14rem;
+      height: auto;
     }
   }
 
   .header-right {
     display: flex;
-    flex: 1 1 auto;
-    justify-content: space-between;
+    justify-content: flex-end;
 
     a {
       display: flex;
@@ -42,13 +42,11 @@
     .header-left {
       img {
         width: 8rem;
+        height: auto;
       }
     }
 
     .header-right {
-      flex-direction: column;
-      align-items: flex-end;
-
       a {
         padding: 0.5rem 1rem;
 
