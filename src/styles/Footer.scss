@@ -1,16 +1,14 @@
 .Footer {
   margin: 5rem auto;
   width: 100%;
-  padding: 2rem;
 
   nav {
     display: flex;
     min-height: 5rem;
     align-items: stretch;
+    justify-content: center;
 
     p {
-      justify-content: flex-start;
-      flex: 1;
       display: flex;
       margin-top: 0;
 
@@ -18,9 +16,10 @@
         text-decoration: none;
         display: flex;
         align-items: center;
-        padding: 1rem 2rem;
+        padding: 1rem 3rem;
         color: #3f4144;
         transition: color 0.2s ease;
+        justify-content: center;
 
         img {
           width: 2rem;
@@ -30,6 +29,8 @@
   }
 
   div {
+    text-align: center;
+
     p {
       font-size: 1.5rem;
       margin-bottom: 1rem;

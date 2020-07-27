@@ -12,11 +12,6 @@
     margin: 0.35em 0 0.7em;
     z-index: 1;
 
-    img {
-      width: 3rem;
-      margin-left: 1rem;
-    }
-
     a {
       transition: color 0.2s ease;
       color: #1a9f60;
@@ -29,16 +24,10 @@
     font-size: 0.6em;
     line-height: 1.8;
     color: #000;
-
-    img {
-      width: 3rem;
-      height: 3rem;
-      margin-left: 1rem;
-    }
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
   .Intro {
     min-height: 20rem;
     height: 50vh;
@@ -49,14 +38,9 @@
 
     h2 {
       font-weight: 300;
-      font-size: 1.5rem;
+      font-size: 1.9rem;
       margin: 0.35em 0 0.7em;
       z-index: 1;
-
-      img {
-        width: 2rem;
-        margin-left: 1rem;
-      }
 
       a {
         transition: color 0.2s ease;
@@ -67,14 +51,20 @@
 
     small {
       display: flex;
-      font-size: 0.6em;
+      font-size: 0.8em;
       line-height: 1.8;
+    }
+  }
+}
 
-      img {
-        width: 1.5rem;
-        height: 1.5rem;
-        margin-left: 1rem;
-      }
+@media only screen and (max-width: 500px) {
+  .Intro {
+    h2 {
+      font-size: 1.6rem;
+    }
+
+    small {
+      font-size: 0.5em;
     }
   }
 }

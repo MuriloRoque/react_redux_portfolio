@@ -279,28 +279,28 @@ function App() {
             },
           },
           pauseOnBlur: true,
-          "polygon": {
-            "draw": {
-              "enable": true,
-              "stroke": {
-                "color": {
-                  "value": "rgba(255,255,255,0.2)"
+          polygon: {
+            draw: {
+              enable: true,
+              stroke: {
+                color: {
+                  value: 'rgba(255,255,255,0.2)',
                 },
-                "width": 0.5,
-                "opacity": 0.2
-              }
+                width: 0.5,
+                opacity: 0.2,
+              },
             },
-            "enable": true,
-            "inline": {
-              "arrangement": "equidistant"
+            enable: true,
+            inline: {
+              arrangement: 'equidistant',
             },
-            "move": {
-              "radius": 10,
-              "type": "path"
+            move: {
+              radius: 10,
+              type: 'path',
             },
-            "scale": 2,
-            "type": "inline",
-          }
+            scale: 2,
+            type: 'inline',
+          },
         }}
       />
       <Header />

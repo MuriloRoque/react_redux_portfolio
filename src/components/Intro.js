@@ -1,15 +1,12 @@
 import React from 'react';
 import '../styles/Intro.scss';
-import hello from '../assets/images/hello.png';
-import handshake from '../assets/images/handshake.png';
 
 const Intro = () => (
   <section className="Intro">
     <h2>
-      Hello there
-      <img src={hello} alt="hello" />
+      Hello there.
       <br />
-      I&apos;m Murilo, a full-stack developer, whose specializations are
+      I’m Murilo, a full-stack developer and chemical engineer who specializes in
       <a href="https://www.ruby-lang.org/en/" rel="noopener noreferrer" target="_blank"> Ruby</a>
       ,
       <a href="https://rubyonrails.org/" rel="noopener noreferrer" target="_blank"> Rails</a>
@@ -19,9 +16,7 @@ const Intro = () => (
       <a href="https://reactjs.org/" rel="noopener noreferrer" target="_blank"> React</a>
       .
       <small>
-        I enjoy creating applications, teaching, and helping people
-        in my community whenever they need it
-        <img src={handshake} alt="handshake" />
+        Currently exploring opportunities local and remote opportunities.
       </small>
     </h2>
   </section>
